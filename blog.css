@@ -35,13 +35,15 @@
     bottom: calc(20%);
     text-align: left;
     justify-content: left;
+    bottom: 15%;
 }
 
 .blog__titulo{
     font-size: 3rem;
     text-align: left;
     color: var(--blanco);
-    max-width: 70%;
+    width: 312px;
+    font-weight: 700;
 }
 
 .blog__titulo--descripcion{
@@ -164,6 +166,63 @@
     color: var(--blanco, #FFF);
 }
 
+@media (min-width: 600px) and (max-width: 700px){
+    .banner__descripcion{
+        padding: 8%;
+        box-sizing: border-box;
+        position: absolute;
+        bottom: calc(20%);
+        text-align: left;
+        justify-content: left;
+        bottom: 10%;
+        z-index: 2;
+        margin: 0 5%;
+    }
+    
+    .blog__titulo{
+        font-size: 3rem;
+        text-align: left;
+        color: var(--blanco);
+        width: 580px;
+        font-weight: 700;
+    }
+    
+    .blog__titulo--descripcion{
+        color: var(--blanco);
+        font-size: 1.7rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        margin-bottom: 24px;
+        max-width: 70%;
+    }
+    
+}
+
+@media (min-width: 701px) and (max-width: 991px){
+    .banner__descripcion{
+        padding: 10% 0;
+        top: 0%;
+        width: 580px;
+        left: 0;
+        margin: 10%;
+        box-sizing: border-box;
+    }
+    .blog__titulo{
+        display: flex;
+        width: 580px;
+        font-weight: 700;
+        font-size: 3rem;
+    }
+    .blog__titulo--descripcion{
+        font-size: 2rem;
+        line-height: 150%;
+        max-width: 580px;
+        font-weight: 400;
+        width: 100%;
+    }
+}
+
 @media (min-width: 600px) and (max-width: 991px){
     #elemento__bloque{
         display: flex;
@@ -187,18 +246,7 @@
     .destinos__lista{
         margin-bottom: 10%;
     }
-    .banner__descripcion{
-        padding: 15%;
-        top: 2%;
-    }
-    .blog__titulo{
-        max-width: 90%;
-    }
-    .blog__titulo--descripcion{
-        font-size: 2rem;
-        line-height: 150%;
-        max-width: 90%;
-    }
+    
 }
 
 @media (min-width: 992px){
@@ -206,16 +254,19 @@
         padding: 0 8%;
     }
     .banner__descripcion{
-        max-width: 70%;
-        top: -5%
+        width: 580px;
+        top: 0%
+
     }
     .blog__titulo{
-        max-width: 90%;
+        width: 580px;
     }
     .blog__titulo--descripcion{
         font-size: 2rem;
         line-height: 150%;
-        max-width: 90%;
+        width: 580px;
+        font-weight: 400;
+        min-width: 580px;
     }
     .banner{
         margin-bottom: 8%;
@@ -268,7 +319,7 @@
         padding: 0 15%;
     }
     .banner__descripcion{
-        max-width: 70%;
+        max-width: 580px;
         top: 5%;
         align-items: center;
         padding: 8% 15%;
