@@ -120,6 +120,7 @@ header{
     padding: 20px 50px;
     padding-left: 0px;
     cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 #check{
