@@ -472,7 +472,12 @@ span.material-symbols-outlined {
     .destinos__elemento--image_2{
         display: none;
     }
-
+    .destinos__elemento--boton{
+        width: 60%;
+    }
+    .destinos__lista{
+        margin-bottom: 12%;
+    }
     .pago__imagenes--imagen{
         display: flex;
     }
