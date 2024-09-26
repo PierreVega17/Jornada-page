@@ -455,7 +455,7 @@ span.material-symbols-outlined {
     cursor: pointer;
 }
 
-.pre-footer__img_3{
+#pre-footer__img_3{
     display: none;
 }
 
@@ -578,6 +578,9 @@ span.material-symbols-outlined {
         display: block;
     }
     #pre-footer__img_2{
+        display: none;
+    }
+    #pre-footer__img_3{
         display: none;
     }
 }

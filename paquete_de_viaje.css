@@ -146,7 +146,7 @@
 .destinos__elemento--boton:hover,
 .ofertas__card--boton:hover{
     background-color: black;
-    border: #B81515 solid 3px;
+    border: #B81515 solid ;
 } 
 
 .destinos__elemento--boton:visited,
@@ -306,7 +306,13 @@
     display: none;
 }
 
-.pre-footer__image{
+#pre-footer__img_3{
+    display: none;
+}
+
+#pre-footer__img, 
+#pre-footer__img_2,
+#pre-footer__img_3{
     width: 100%;
 }
 
@@ -597,4 +603,5 @@
         padding-left: 10%;
         padding-right: 10%;
     }
+    
 }
