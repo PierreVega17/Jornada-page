@@ -143,7 +143,6 @@
 .destinos__elemento--boton:hover,
 .ofertas__card--boton:hover{
     background-color: black;
-    border: #B81515 solid 3px;
 } 
 
 .destinos__elemento--boton:visited,
@@ -246,7 +245,6 @@
     .destinos__lista{
         margin-bottom: 10%;
     }
-    
 }
 
 @media (min-width: 992px){

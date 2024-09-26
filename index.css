@@ -148,7 +148,6 @@ img {
 .destinos__elemento--boton:hover,
 .ofertas__card--boton:hover{
     background-color: black;
-    border: #B81515 solid 3px;
 } 
 
 .destinos__elemento--boton:visited,
@@ -512,9 +511,13 @@ span.material-symbols-outlined {
     #pre-footer__img{
         display: none;
     }
+    #pre-footer__img_3{
+        display: block;
+    }
     .testimonios{
         margin-bottom: 5%;
     }
+    
 }
 
 @media (min-width: 992px) {
@@ -582,6 +585,10 @@ span.material-symbols-outlined {
     }
     #pre-footer__img_3{
         display: none;
+    }
+    .destinos__elemento--boton{
+        width: 70%;
+        max-width: 400px;
     }
 }
 
