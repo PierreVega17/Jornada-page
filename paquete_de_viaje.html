@@ -6,7 +6,7 @@
     <title>Jornada</title>
     <meta name="description" content="Descubre viajes inolvidables con Jornada. Encuentra paquetes de viaje personalizados y disfruta de experiencias únicas. ¡Reserva tu próxima aventura!">
     <link rel="stylesheet" href="./global.css">
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./paquete_de_viaje.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -37,9 +37,159 @@
             </nav>
         </div>
     </header>
+    
+    <section class="banner">
+        <figure class="banner__wrapper">
+            <img class="banner__img" alt="Mujer sentada en una montaña ubicada en Mont Blanc" src="./Assets/Assets - Jornada Viagens (IA no Front)/Desktop/2 Destino/Banner Destinos Japão.png" />
+            <img class="banner__img_2" src="./Assets/Assets - Jornada Viagens (IA no Front)/Mobile/3 Destino/Banner Destino.png" alt="Mujer sentada en una montaña ubicada en Mont Blanc">
+            <img class="banner__img_3" src="./Assets/Assets - Jornada Viagens (IA no Front)/Tablet/3 Destino/Banner Destino.png" alt="Mujer sentada en una montaña ubicada en Mont Blanc">
+            <img class="banner__img_4" alt="Mujer sentada en una montaña ubicada en Mont Blanc" src="./Assets/Assets - Jornada Viagens (IA no Front)/Desktop_Large/2 Destino/Banner.png" />
+            <figcaption class="banner__descripcion">
+                <h1 class="blog__titulo">¡Descubre Japón!</h1>
+                <div class="blog__titulo--subrayado"></div>
+                <p class="blog__titulo--descripcion">
+                    ¡Jornada tiene el paquete perfecto para tu estilo y presupuesto! ¡Descubre los hermosos paisajes y la cultura milenaria de este hermoso país!
+                </p>
+            </figcaption>
+        </figure>
+    </section>
     <main class="container">
+        <section class="destinos">
+            <h2 class="destinos__titulo" id="otros__titulo">Destinos de la Excursión</h2>
+            <hr class="destinos__titulo--subrayado">
+            <ul class="destinos__lista" id="lista__opciones">
+                <li class="destinos__elemento" id="elemento__otros">
+                    <img id="img__desktop" class="destinos__elemento--image" alt="Imagen de Tokio" src="./Assets/Assets - Jornada Viagens (IA no Front)/Desktop/1 Homepage/Destinos Tokyo.jpg" />
+                    <img class="destinos__elemento--image_2" alt="Imagen de Tokio" src="./Assets/Assets - Jornada Viagens (IA no Front)/Mobile/1 Homepage/Tokyo.jpg" />
+                    <img class="destinos__elemento--image_3" alt="Imagen de tokyo desde el hotel" src="./Assets/Assets - Jornada Viagens (IA no Front)/Tablet/1 Homepage/Tokyo (5).jpg" />
+                    <h3 class="destinos__elemento--nombre">Tokyo</h3>
+                    <p class="destinos__elemento--descripcion">
+                        Tokio es una ciudad vibrante y cosmopolita, con sus templos históricos, museos de arte moderno y rascacielos icónicos. No pierdas la oportunidad de sumergirte en su fascinante atmósfera.
+                    </p>
+                    <div class="destinos__elemento--boton-container">
+                    <button class="destinos__elemento--boton">
+                        <span class="destinos__elemento--boton-texto">Ver detalles</span>
+                    </button>
+                    </div>
+                </li>
+                <li class="destinos__elemento" id="elemento__otros">
+                    <img id="img__desktop" class="destinos__elemento--image" alt="Imagen de Osaka" src="./Assets/Assets - Jornada Viagens (IA no Front)/Desktop/1 Homepage/Destinos Osaka.jpg" />
+                    <img class="destinos__elemento--image_2" alt="Imagen de osaka" src="./Assets/Assets - Jornada Viagens (IA no Front)/Mobile/1 Homepage/Osaka.jpg" />
+                    <img class="destinos__elemento--image_3" alt="Imagen de tokyo desde el hotel" src="./Assets/Assets - Jornada Viagens (IA no Front)/Tablet/1 Homepage/Osaka (5).jpg" />
+                    <h3 class="destinos__elemento--nombre">Osaka</h3>
+                    <p class="destinos__elemento--descripcion">
+                    Osaka es una ciudad animada y moderna en Japón. La ciudad es famosa por su deliciosa gastronomía y por ser un excelente punto de partida para explorar otras ciudades japonesas cercanas.
+                    </p>
+                    <div class="destinos__elemento--boton-container">
+                    <button class="destinos__elemento--boton">
+                        <span class="destinos__elemento--boton-texto">Ver detalles</span>
+                    </button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+                
+        <section class="pago">
+            <h3 class="pago__titulo">Pago</h3>
+            <hr class="pago__titulo--subrayado">
+            <div class="pago__condiciones">
+            <div class="pago__condiciones--descripcion">
+                <strong class="pago__condiciones--destaque" id="pago__total">
+                    $4000
+                    </strong>
+                <strong class="pago__condiciones--destaque">
+                ¡En hasta 12 cuotas!
+                </strong>
+                <p class="pago__condiciones--detalles">
+                ¡Viaja pagando en hasta 12 cuotas con tarjeta, al contado en crédito con un descuento del 5%!
+                </p>
+            </div>
+            <div class="destinos__elemento--boton-container" id="boton__pago--container">
+                <button class="destinos__elemento--boton" id="boton__pago">
+                    <span class="destinos__elemento--boton-texto">Ver detalles</span>
+                </button>
+                </div>
+            <div class="pago__imagenes">
+                <div class="pago__imagenes--grupo">
+                <img class="pago__imagenes--imagen_2" alt="Imagen de distintos tipos de pago" src="./Assets/Assets - Jornada Viagens (IA no Front)/Mobile/3 Destino/Montagem.png" aria-label="Tarjeta de crédito" />
+                <div class="pago__imagenes--imagen-container">
+                    <img class="pago__imagenes--imagen" alt="Imagen de un pago con tarjeta" src="./Assets/Assets - Jornada Viagens (IA no Front)/Desktop/2 Destino/Montagem japão 1.png" aria-label="Tarjeta de crédito" />
+                </div>
+                <div class="pago__imagenes--imagen-container">
+                    <img class="pago__imagenes--imagen" alt="Imagen de un pago con tarjeta" src="./Assets/Assets - Jornada Viagens (IA no Front)/Desktop/2 Destino/Montagem japão 2.png" aria-label="Tarjeta de débito" />
+                </div>
+                </div>
+                <div class="pago__imagenes--imagen-destaque">
+                <img class="pago__imagenes--imagen" alt="Imagen de un pago con tarjeta" src="./Assets/Assets - Jornada Viagens (IA no Front)/Desktop/2 Destino/Montagem japão 3.png" aria-label="Pago en efectivo" />
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="testimonios">
+            <h3 class="testimonios__titulo">Testimonios</h3>
+            <hr class="testimonios__titulo--subrayado">
+            <div class="testimonios__wrapper">
+            <article class="testimonios__elemento">
+                <p class="testimonios__texto">
+                    Tuve una experiencia inolvidable. El paquete de Japón me permitió explorar desde templos antiguos hasta ciudades modernas. Y el precio fue accesible, ¡lo recomiendo!
+                </p>
+                <footer class="testimonios__autor">
+                <img class="testimonios__autor--foto" src="./Assets/Assets - Jornada Viagens (IA no Front)/Desktop/2 Destino/Avatar Júlio.png" alt="Foto de Ana Lópes" />
+                <div class="testimonios__autor--info">
+                    <b class="testimonios__autor--nombre">Javier Martínez</b>
+                    <div class="testimonios__autor--evaluacion" aria-label="Calificación de 5 estrellas">
+                    <img class="testimonios__autor--evaluacion-estrella" src="./img/star-1.svg" alt="Estrella" />
+                    <img class="testimonios__autor--evaluacion-estrella" src="./img/star-1.svg" alt="Estrella" />
+                    <img class="testimonios__autor--evaluacion-estrella" src="./img/star-1.svg" alt="Estrella" />
+                    <img class="testimonios__autor--evaluacion-estrella" src="./img/star-1.svg" alt="Estrella" />
+                    <img class="testimonios__autor--evaluacion-estrella" src="./img/star-1.svg" alt="Estrella" />
+                    </div>
+                </div>
+                </footer>
+            </article>
+            <article class="testimonios__elemento">
+                <p class="testimonios__texto">
+                    Mi viaje a Tokio fue increíble. El itinerario personalizado me permitió hacer mucho en poco tiempo. ¡Superó mis expectativas y ya quiero viajar con Jornada de nuevo!
+                </p>
+                <footer class="testimonios__autor">
+                <img class="testimonios__autor--foto" src="./Assets/Assets - Jornada Viagens (IA no Front)/Desktop/2 Destino/Avatar Lúcia.png" alt="Foto de Amari Salin" />
+                <div class="testimonios__autor--info">
+                    <b class="testimonios__autor--nombre">María García</b>
+                    <div class="testimonios__autor--evaluacion" aria-label="Calificación de 5 estrellas">
+                    <img class="testimonios__autor--evaluacion-estrella" src="./img/star-1.svg" alt="Estrella" />
+                    <img class="testimonios__autor--evaluacion-estrella" src="./img/star-1.svg" alt="Estrella" />
+                    <img class="testimonios__autor--evaluacion-estrella" src="./img/star-1.svg" alt="Estrella" />
+                    <img class="testimonios__autor--evaluacion-estrella" src="./img/star-1.svg" alt="Estrella" />
+                    <img class="testimonios__autor--evaluacion-estrella" src="./img/star-1.svg" alt="Estrella" />
+                    </div>
+                </div>
+                </footer>
+            </article>
+            <article class="testimonios__elemento">
+                <p class="testimonios__texto">
+                    ¡Mi viaje a Osaka fue inolvidable! ¡Jornada organizó todo perfectamente, lo recomiendo sin dudarlo!
+                </p>
+                <footer class="testimonios__autor">
+                <img class="testimonios__autor--foto" src="./Assets/Assets - Jornada Viagens (IA no Front)/Desktop/2 Destino/Avatar Olga.png" alt="Foto de Lauro B. Matos" />
+                <div class="testimonios__autor--info">
+                    <b class="testimonios__autor--nombre">Ana Rodríguez</b>
+                    <div class="testimonios__autor--evaluacion" aria-label="Calificación de 5 estrellas">
+                    <img class="testimonios__autor--evaluacion-estrella" src="./img/star-1.svg" alt="Estrella" />
+                    <img class="testimonios__autor--evaluacion-estrella" src="./img/star-1.svg" alt="Estrella" />
+                    <img class="testimonios__autor--evaluacion-estrella" src="./img/star-1.svg" alt="Estrella" />
+                    <img class="testimonios__autor--evaluacion-estrella" src="./img/star-1.svg" alt="Estrella" />
+                    <img class="testimonios__autor--evaluacion-estrella" src="./img/star-1.svg" alt="Estrella" />
+                    </div>
+                </div>
+                </footer>
+            </article>
+            </div>
+        </section>
+            </main>
 
-    </main>
+    <img class="pre-footer__image" id="pre-footer__img" alt="" src="./Assets/Assets - Jornada Viagens (IA no Front)/Desktop/2 Destino/Imagem pré rodapé.png" />
+    <img class="pre-footer__image" id="pre-footer__img_2" alt="" src="./Assets/Assets - Jornada Viagens (IA no Front)/Mobile/3 Destino/Imagem pré rodapé.png" />
+    <img class="pre-footer__image" id="pre-footer__img_3" alt="Vista panorámica de la ciudad de Cicilia" src="./Assets/Assets - Jornada Viagens (IA no Front)/Tablet/3 Destino/Imagem pré rodapé.png" />
     <footer class="footer__container">
         <section class="footer">
             <div class="footer__logo-container">

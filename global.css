@@ -17,7 +17,7 @@
 
 body {
     margin: 0;
-    width: 100%;
+    width: 100vw;
     padding: 0;
     box-sizing: border-box;
 }
@@ -33,7 +33,7 @@ button{
 
 .encabezado__container {
     background: var(--negro);
-    width: 100vw;
+    width: 100%;
     align-items: center;
     box-sizing: border-box;
     height: 138px;
@@ -67,6 +67,9 @@ header{
     position: absolute;
     padding: 50px;
     top: -15%
+}
+.logo{
+    height: 64px;
 }
 
 .barras_menú{
