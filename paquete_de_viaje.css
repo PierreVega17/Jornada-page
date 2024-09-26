@@ -228,12 +228,18 @@
     width: 100%;
 }
 
+.pago__imagenes--grupo{
+    gap: 4%;
+}
+
 .pago__imagenes--imagen-container {
     flex: 1;
+    width: 48%;
 }
 
 .pago__imagenes--imagen-destaque {
     margin-top: 20px;
+    width: 100%;
 }
 
 .pago__imagenes--imagen {
@@ -582,4 +588,13 @@
     }
 }
 
-
+@media (min-width: 1300px){
+    .container{
+        padding: 0 8%;
+        box-sizing: border-box;
+    }
+    .banner__descripcion{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
